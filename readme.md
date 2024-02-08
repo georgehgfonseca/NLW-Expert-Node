@@ -3,13 +3,15 @@ API to serve a Polling app. In this project an user can create polls, other user
 
 # Concepts used in this project
 - REST API
-- Websockets
 - Docker
 - PostgreSQL
 - Redis
 - Fastify
 - Prisma
 - Cookies
+- Radis
+- Websockets
+- Pub/Sub
 
 # Libraries and commands used in this project:
 
@@ -27,7 +29,7 @@ Install tsx as a dev dependency:
 Library to create node API:
 ```npm i fastify```
 ```npm i @fastify/cookie```
-
+```npm i @fastify/websocket```
 
 ORM to manipulate the data with ease:
 ```npm i prisma -D```
@@ -36,6 +38,10 @@ ORM to manipulate the data with ease:
 
 Validate data in requisitions:
 ```npm i zod```
+
+Redis cahce database that runs in principal memory:
+```npm i ioredis```
+
 
 # To run this project:
 
